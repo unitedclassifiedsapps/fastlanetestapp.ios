@@ -1,0 +1,9 @@
+
+/* Class = "UINavigationItem"; title = "Second"; ObjectID = "Qhd-iZ-MKJ"; */
+"Qhd-iZ-MKJ.title" = "Druhá obrazovka";
+
+/* Class = "UINavigationItem"; title = "Initial"; ObjectID = "lGi-5G-eQx"; */
+"lGi-5G-eQx.title" = "Úvodná obrazovka";
+
+/* Class = "UIButton"; normalTitle = "Goto second screen"; ObjectID = "tbI-vj-1S1"; */
+"tbI-vj-1S1.normalTitle" = "Hybaj na druhý screen";
