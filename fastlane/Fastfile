@@ -16,4 +16,9 @@ platform :ios do
   lane :screenshots do
     capture_screenshots(scheme: "fastlanetestapp")
   end
+
+  desc "Test application"
+  lane :test do
+    run_tests(scheme: "fastlanetestapp")
+  end
 end
