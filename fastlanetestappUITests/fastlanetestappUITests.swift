@@ -13,13 +13,17 @@ class fastlanetestappUITests: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
-        XCUIApplication().launch()
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
     }
     
     
     func testScreenshots() {
         let app = XCUIApplication()
+        snapshot("Initial")
         app.buttons["Goto second screen"].tap()
+        snapshot("Second")
     }
     
 }

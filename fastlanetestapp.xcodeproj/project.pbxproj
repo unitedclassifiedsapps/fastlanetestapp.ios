@@ -15,6 +15,7 @@
 		594C5B572006419F00D4EA92 /* fastlanetestappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B562006419F00D4EA92 /* fastlanetestappTests.swift */; };
 		594C5B622006419F00D4EA92 /* fastlanetestappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594C5B612006419F00D4EA92 /* fastlanetestappUITests.swift */; };
 		59E6810F2006442300270DC6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6810E2006442300270DC6 /* SecondViewController.swift */; };
+		59E6811520064C9E00270DC6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6811420064C9D00270DC6 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		59E68111200646FF00270DC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		59E681122006472000270DC6 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main.strings; sourceTree = "<group>"; };
 		59E681132006472100270DC6 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		59E6811420064C9D00270DC6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		594C5B602006419F00D4EA92 /* fastlanetestappUITests */ = {
 			isa = PBXGroup;
 			children = (
+				59E6811420064C9D00270DC6 /* SnapshotHelper.swift */,
 				594C5B612006419F00D4EA92 /* fastlanetestappUITests.swift */,
 				594C5B632006419F00D4EA92 /* Info.plist */,
 			);
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				594C5B622006419F00D4EA92 /* fastlanetestappUITests.swift in Sources */,
+				59E6811520064C9E00270DC6 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
