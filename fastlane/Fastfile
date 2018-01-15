@@ -44,4 +44,16 @@ platform :ios do
       readonly: true
     )
   end
+
+  desc "Build development version of app"
+  lane :build_development do
+    sync_code_signing(type: "development", readonly: true)
+    build_ios_app(
+      clean: true,
+      output_directory: "output",
+      silent: true,
+      include_symbols: true,
+      export_method: "development"
+    )
+  end
 end

@@ -43,6 +43,11 @@ Generate development certificate
 fastlane ios sync_development_provisioning_profile
 ```
 Sync development certificate (readonly)
+### ios build_development
+```
+fastlane ios build_development
+```
+Build development version of app
 
 ----
 
