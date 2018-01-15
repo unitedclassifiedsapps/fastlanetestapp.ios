@@ -21,4 +21,27 @@ platform :ios do
   lane :test do
     run_tests(scheme: "fastlanetestapp")
   end
+
+  desc "Initialize app on developer portal"
+  lane :developer_portal_init do
+    produce(
+      skip_itc: true,
+      app_name: "FastlaneTestApp"
+    )
+  end
+
+  desc "Generate development certificate"
+  lane :generate_development_provisioning_profile do
+    sync_code_signing(
+      type: "development"
+    )
+  end
+
+  desc "Sync development certificate (readonly)"
+  lane :sync_development_provisioning_profile do
+    sync_code_signing(
+      type: "development",
+      readonly: true
+    )
+  end
 end

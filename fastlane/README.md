@@ -28,6 +28,21 @@ Generate new localized screenshots
 fastlane ios test
 ```
 Test application
+### ios developer_portal_init
+```
+fastlane ios developer_portal_init
+```
+Initialize app on developer portal
+### ios generate_development_provisioning_profile
+```
+fastlane ios generate_development_provisioning_profile
+```
+Generate development certificate
+### ios sync_development_provisioning_profile
+```
+fastlane ios sync_development_provisioning_profile
+```
+Sync development certificate (readonly)
 
 ----
 
